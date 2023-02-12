@@ -122,6 +122,7 @@ class _MyHomePageState extends State<MyHomePage> with SingleTickerProviderStateM
                             indicatorPadding: const EdgeInsets.all(0),
                             indicatorSize: TabBarIndicatorSize.label,
                             labelPadding: const EdgeInsets.all(0),
+                            controller: _tabController,
                             isScrollable: true,
                             indicator: BoxDecoration(
                               borderRadius: BorderRadius.circular(10),
